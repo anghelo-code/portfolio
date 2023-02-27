@@ -5,7 +5,7 @@ import { SocialNetworks } from './SocialNetworks'
 
 export const Navbar = () => {
   return (
-    <header className="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top bg-dark">
+    <header className="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top bg-trasparent">
       <nav className="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
         <Logo />
 

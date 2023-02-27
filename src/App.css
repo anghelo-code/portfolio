@@ -13,12 +13,18 @@
   --open-sans: 'Open Sans', sans-serif;
 }
 
-.test {
-  font-family: var(--montserrat);
-  font-weight: bold;
-  color: var(--tx-light-blue);
-}
-
 body {
-  background-color: var(--bg-dark-blue);
+  background: -moz-radial-gradient(circle at 15% 28%, rgba(1, 65, 126, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 15% 28%, rgba(1, 65, 126, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 15% 28%, rgba(1, 65, 126, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 15% 28%, rgba(1, 65, 126, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 15% 28%, rgba(1, 65, 126, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
