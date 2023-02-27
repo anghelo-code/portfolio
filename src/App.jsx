@@ -1,8 +1,13 @@
+import { Home } from "./components/Home"
+import { Navbar } from "./components/Navbar"
+
 export const App = () => {
   return (
-    <div>
-      hola mundo
-      <button className='btn btn-primary'>juan</button>  
-    </div>
+    <>
+      <Navbar/>
+      <main className="container main">
+        <Home/> 
+      </main>
+    </>
   )
 }

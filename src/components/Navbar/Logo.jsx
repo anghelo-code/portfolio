@@ -1,5 +1,9 @@
+import logo from '/logo-princ.svg';
+
 export const Logo = () => {
   return (
-    <div>logo</div>
+    <a class="navbar-brand" href="#">
+      <img src={ logo } alt="Anghelo Alagon" height="50"/>
+    </a>
   )
 }
