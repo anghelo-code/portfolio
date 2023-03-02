@@ -1,0 +1,26 @@
+.card {
+  overflow: hidden;
+}
+
+.card:hover .card__back {
+  transform: translateY(0%);
+}
+
+.card__back {
+  background-color: var(--bg-dark-blue-7);
+  transform: translateY(100%);
+  transition: all .5s ease-out;
+}
+
+.p-card {
+  font-family: var(--open-sans);
+}
+
+.link-card {
+  color: var(--tx-light-blue);
+  transition: all .4s ease-out;
+}
+
+.link-card:hover {
+  color: var(--bg-dark-blue);
+}

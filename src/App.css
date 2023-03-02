@@ -1,11 +1,15 @@
 :root {
   /* background-color */
-  --bg-dark-blue: #0D1239;
-  --bg-light-blue: #01417e;
+  --bg-dark-blue: rgb(13, 18, 57);
+  --bg-dark-blue-7: rgba(13, 18, 57, 0.75);
+  --bg-light-blue: rgb(1, 65, 126);
+  --bg-light-blue-5: rgb(1, 65, 126, 0.7);
+  
 
   /* text-color */
   --tx-white: #FFFFFF;
   --tx-light-blue: #00C2FF;
+
   --tx-blue: #0030FF;
 
   /* font-family */
@@ -27,4 +31,10 @@ body {
 
   /* global 92%+ browsers support */
   background: radial-gradient(circle at 15% 28%, rgba(1, 65, 126, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+.text-blue {
+  font-family: var(--montserrat);
+  font-weight: bold;
+  color: var(--tx-light-blue);
 }
