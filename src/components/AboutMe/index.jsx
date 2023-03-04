@@ -1,4 +1,3 @@
-import { H1 } from "../H1";
 import { TextAboutMe } from "./TextAboutMe";
 import imgDesktop from "../../assets/laptop.jpg";
 import "./style.component.css";
@@ -7,16 +6,13 @@ import "./style.component.css";
 export const AboutMe = () => {
   return (
     <section className="mt-3">
-      
-
       <div className="row h-auto">
         <div className="col-md-6 p-4">
           <img src={ imgDesktop } alt="desktop" className="img-fluid rounded-5"/>
         </div>
+
         <div className="col-md-6 p-5 d-flex align-items-center flex-column">
-          <H1 text="About Me" />
           <TextAboutMe />
-          <button className="btn btn-outline-primary btn-lg">Descargar CV</button>
         </div>
       </div>
     </section>
