@@ -10,7 +10,7 @@ export const Card = () => {
   return (
     <article className="col-md-4">
       <div className="card h-100 position-relative" style={styleCard}>
-        <img src={elmoHorario} class="card-img-top" alt="Elmo Horario" />
+        <img src={elmoHorario} className="card-img-top" alt="Elmo Horario" />
 
         <CardBack />
       </div>
