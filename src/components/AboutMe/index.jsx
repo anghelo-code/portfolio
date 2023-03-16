@@ -5,13 +5,13 @@ import "./style.component.css";
 
 export const AboutMe = () => {
   return (
-    <section className="mt-3">
+    <section className="my-5">
       <div className="row h-auto">
-        <div className="col-md-6 p-4">
+        <div className="col-lg-6 p-4">
           <img src={ imgDesktop } alt="desktop" className="img-fluid rounded-5"/>
         </div>
 
-        <div className="col-md-6 p-5 d-flex align-items-center flex-column">
+        <div className="col-lg-6 p-5 d-flex align-items-center flex-column">
           <TextAboutMe />
         </div>
       </div>

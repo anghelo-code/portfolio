@@ -1,0 +1,9 @@
+.logo {
+  height: 80px;
+  color: var(--tx-white);
+  transition: all .26s ease-out;
+}
+
+.logo:hover {
+  color: var(--tx-blue);
+}
