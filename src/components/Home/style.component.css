@@ -2,17 +2,6 @@
   font-weight: bold !important;
 }
 
-.gradient__text {
-  background-color: var(--tx-light-blue);
-  background-image: linear-gradient(24deg, var(--tx-light-blue), var(--tx-blue));
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-  background-clip: text;
-}
-
 .h-nav {
   height: calc(100vh - 77px);
 }   
@@ -21,4 +10,7 @@
   color:var(--tx-white);
 }
 
+@media  (min-width: 450px) {
+  
+}
 

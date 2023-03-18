@@ -1,10 +1,10 @@
 import { Logo } from "./Logo";
 
-export const LogoSvg = ({ svg, alt }) => {
+export const LogoSvg = ({ svg }) => {
   return (
     <>
-      <Logo>
-        <img src={ svg } alt={ alt } className="logo" />
+      <Logo >
+        { svg }
       </Logo>
     </>
   )
