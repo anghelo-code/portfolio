@@ -1,5 +1,11 @@
 .text-about {
   color: #fff;
   font-family: var(--open-sans);
-  padding: 0 2rem;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 992px) { 
+  .text-about {
+    padding: 0 2rem;
+  }
 }

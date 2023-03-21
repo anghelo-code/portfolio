@@ -1,4 +1,4 @@
-import { H1 } from "../H1";
+import { H1 } from "../Shared/H1";
 import './style.component.css';
 import { faCss3Alt, faSquareJs, faHtml5, faReact, faPython, faGithub, faPhp, faLinux, faApple, faGitAlt, faBootstrap, faDocker, faWindows } from '@fortawesome/free-brands-svg-icons';
 import { LogoFontAwesome } from "./LogoFontAwesome";
@@ -7,7 +7,7 @@ import { MysqlSvg, SqlServerSvg, PhotoshopSvg, DjangoSvg } from './svg';
 
 export const Skills = () => {
   return (
-    <section className="m-4">
+    <section className="m-4" id="skillsId">
       <H1 text="Mis Habilidades" />
 
       <div className="row gy-4">

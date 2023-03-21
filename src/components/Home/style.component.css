@@ -4,13 +4,10 @@
 
 .h-nav {
   height: calc(100vh - 77px);
-}   
+}  
 
 .job {
   color:var(--tx-white);
 }
 
-@media  (min-width: 450px) {
-  
-}
 

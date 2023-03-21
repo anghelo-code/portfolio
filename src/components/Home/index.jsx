@@ -3,9 +3,9 @@ import "./style.component.css";
 
 export const Home = () => {
   return (
-    <section className="row home h-nav">
+    <section className="row home h-nav" id="homeId">
 
-      <div className=" col-12 col-lg-6 my-lg-auto dino">
+      <div className=" col-12 col-lg-6 my-lg-auto">
         <img src={ miniDino } alt="mini dino" className="img-fluid" />
       </div>
       <div className=" col-12 col-lg-6 my-lg-auto">
