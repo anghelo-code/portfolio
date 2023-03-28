@@ -1,0 +1,30 @@
+.carousel__prev {
+  left: 6px !important;
+}
+
+.carousel__next {
+  right: 6px !important;
+}
+
+.carousel__next, .carousel__prev {
+  top: -200px !important;
+}
+
+.carousel__indicators {
+  bottom: -53px !important;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .carousel__prev {
+    left: -75px !important;
+  }
+  
+  .carousel__next {
+    right: -75px !important;
+  }
+
+  .carousel__next, .carousel__prev {
+    top: 0px !important;
+  }
+}
