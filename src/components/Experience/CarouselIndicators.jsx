@@ -1,9 +1,22 @@
-export const CarouselIndicators = () => {
+import { CarouselButton } from './CarouselButton'
+
+export const CarouselIndicators = ({ n }) => {
+  const firstComponentProps = { className: 'active', index: 0 };
+  const componentsArray = new Array(n).fill(null);
+
   return (
     <div className="carousel-indicators carousel__indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+      {/* Renderizamos el primer componente con sus props */}
+      {n > 0 && <CarouselButton {...firstComponentProps} />}
+
+      {/* Renderizamos los componentes restantes */}
+      {
+      componentsArray.map((_, index) => {
+        if (index === 0) return null;
+        return <CarouselButton key={ index } index={ index }  />;
+      })
+      }
     </div>
   )
 }
