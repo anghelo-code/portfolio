@@ -3,7 +3,7 @@ import { CarouselInner } from "./CarouselInner"
 
 export const Carousel = () => {
   return (
-    <div id="carouselExperience" className="carousel slide carousel-fade" style={{ maxWidth: '800px' }}>
+    <div id="carouselExperience" className="carousel slide " style={{ maxWidth: '800px' }}>
       <CarouselIndicators n={ 3 }/>
 
       <CarouselInner />

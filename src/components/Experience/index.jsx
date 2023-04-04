@@ -6,7 +6,7 @@ import "./style.component.css";
 export const Experience = () => {
   return (
     <section className="row h-auto justify-content-center" id="experienceId">
-      <H1 text="Experiencia" />
+      <H1 text="Experiencia y Logros" />
 
       <Carousel />
 

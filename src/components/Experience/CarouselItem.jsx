@@ -2,7 +2,7 @@ export const CarouselItem = ({ src, tittle, text, className, time }) => {
   let classname = `carousel-item ${className}`
   return (
     <article className={classname}>
-      <div className="card text-bg-dark rounded-5"  >
+      <div className="card  rounded-5 carousel__background"  >
         <div className="row g-0">
           <div className="col-md-6">
             <img src={ src } className="img-fluid rounded-start" alt={ tittle } />

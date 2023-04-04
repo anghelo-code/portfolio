@@ -1,3 +1,8 @@
+.carousel__background {
+  color: #fff !important;
+  background-color: rgb(27 33 85 / 11%) !important;
+}
+
 .carousel__prev {
   left: 6px !important;
 }
@@ -13,6 +18,8 @@
 .carousel__indicators {
   bottom: -53px !important;
 }
+
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 

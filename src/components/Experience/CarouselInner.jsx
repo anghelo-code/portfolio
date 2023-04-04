@@ -1,11 +1,13 @@
 import { CarouselItem } from "./CarouselItem"
-import laptop from '../../assets/laptop.jpg';
+import acm from '../../assets/acm.png';
+import itep2 from '../../assets/itep-2.png';
+import itep1 from '../../assets/itep-1.png'
 
 export const CarouselInner = () => {
   return (
     <div className="carousel-inner">
       <CarouselItem
-        src={laptop}
+        src={ itep1 }
         tittle="ITEP Travel"
         text="
         Optimicé el rendimiento y agregué nuevas características a las páginas web de la empresa, gestioné las redes sociales de la empresa y aumenté el flujo de visitas a las páginas web, utilizando HTML, CSS, JavaScript, Bootstrap, Canva y PHP para llevar a cabo mis tareas.
@@ -15,7 +17,7 @@ export const CarouselInner = () => {
       />
 
       <CarouselItem
-        src={laptop}
+        src={ acm }
         tittle="Primer lugar en CUSCONTEST XVIII ( nivel intermedio):"
         text="
         Trabajando en equipo con dos compañeros.
@@ -24,7 +26,7 @@ export const CarouselInner = () => {
         time="Agosto  2022 (ACM chapter Cusco)"
       />
       <CarouselItem
-        src={laptop}
+        src={ acm }
         tittle="Tercer lugar en CUSCONTEST XVII ( nivel principiante):"
         text="
         Compitiendo contra equipos de hasta 3 personas.
