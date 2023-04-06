@@ -1,0 +1,17 @@
+.form__inputs {
+  background-color: rgb(27 33 85 / 11%) !important;
+  color: #fff !important;
+  border: 1px solid #00C2FF !important;
+}
+
+
+.form__label {
+  color: #fff;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .w-md-60 {
+    width: 60% !important;
+  }
+}
