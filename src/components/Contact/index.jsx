@@ -4,7 +4,7 @@ import "./style.component.css";
 
 export const Contact = () => {
   return (
-    <section className="my-4" >
+    <section className="my-4"  id="contact">
       <H1 text="Cantactame"/>
 
       <Form />

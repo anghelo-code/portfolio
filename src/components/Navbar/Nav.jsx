@@ -5,6 +5,7 @@ export const Nav = () => {
       <a className="nav-link" href="#projectsId">Proyectos</a>
       <a className="nav-link" href="#aboutMeId">Sobre mi</a>
       <a className="nav-link" href="#skillsId">Habilidades</a>
+      <a className="nav-link" href="#contact">Contactame</a>
     </div>
   )
 }

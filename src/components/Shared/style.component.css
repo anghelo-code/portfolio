@@ -1,0 +1,7 @@
+.button {
+  border-color: var(--tx-blue) !important;
+}
+
+.button:hover {
+  background-color: var(--tx-blue) !important;
+}

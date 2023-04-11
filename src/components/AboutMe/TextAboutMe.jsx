@@ -1,3 +1,4 @@
+import { Button } from "../Shared/Button";
 import { H1 } from "../Shared/H1";
 
 export const TextAboutMe = () => {
@@ -10,7 +11,7 @@ export const TextAboutMe = () => {
         Mi enfoque principal es crear soluciones de alta calidad que sean visualmente atractivas y funcionales. Siempre busco mejorar mis habilidades y aprender nuevas tecnologías para poder ofrecer soluciones de vanguardia.
       </p>
 
-      <button className="btn btn-outline-primary btn-lg">Descargar CV</button>
+      <Button>Descargar CV</Button>
     </>
 
   )
