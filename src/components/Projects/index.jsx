@@ -1,7 +1,7 @@
-import React from 'react'
 import { Button } from '../Shared/Button'
 import { H1 } from '../Shared/H1'
 import { Card } from './Card'
+import './style.component.css';
 
 export const Projects = () => {
   return (

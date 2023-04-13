@@ -1,0 +1,21 @@
+.footer {
+  background-color: #333;
+}
+
+.footer__icon i, .footer__icon small {
+  font-size: 2rem !important;
+  color: #99a4a6ab;
+  transition: all .35s ease-in-out;
+}
+
+.footer__icon:hover i, .footer__icon small {
+  color: #99a4a6;
+}
+
+.footer__icon small {
+  font-size: 2rem;
+}
+
+.footer__small {
+  color: #99a4a6ab;
+}
