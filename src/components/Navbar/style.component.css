@@ -1,0 +1,13 @@
+.header{
+  background-color: #1a1d5640;
+  transition: all .26s ease-in-out;
+}
+
+.header:hover {
+  background-color: #1c1d40bf;
+}
+
+.header__link:hover {
+  color: #fff !important;
+}
+

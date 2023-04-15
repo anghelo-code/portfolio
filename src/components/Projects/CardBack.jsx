@@ -1,4 +1,4 @@
-import { LinksCard } from "./LinksCard"
+import { LinksCard } from './LinksCard';
 
 export const CardBack = () => {
   return (

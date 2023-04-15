@@ -1,6 +1,6 @@
-import { TextAboutMe } from "./TextAboutMe";
-import imgDesktop from "../../assets/laptop.jpg";
-import "./style.component.css";
+import { TextAboutMe } from './TextAboutMe';
+import imgDesktop from '../../assets/laptop.jpg';
+import './style.component.css';
 
 
 export const AboutMe = () => {

@@ -1,5 +1,5 @@
-import { CarouselIndicators } from "./CarouselIndicators"
-import { CarouselInner } from "./CarouselInner"
+import { CarouselIndicators } from './CarouselIndicators';
+import { CarouselInner } from './CarouselInner';
 
 export const Carousel = () => {
   return (

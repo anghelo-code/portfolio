@@ -1,7 +1,6 @@
-import { CarouselItem } from "./CarouselItem"
+import { CarouselItem } from './CarouselItem';
 import acm from '../../assets/acm.png';
-import itep2 from '../../assets/itep-2.png';
-import itep1 from '../../assets/itep-1.png'
+import itep1 from '../../assets/itep-1.png';
 
 export const CarouselInner = () => {
   return (

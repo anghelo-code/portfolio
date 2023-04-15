@@ -7,3 +7,39 @@
 .logo:hover {
   color: var(--tx-blue);
 }
+
+.tooltip__css {
+  position: relative;
+}
+
+.tooltip__css:hover .tooltip-box {
+	display: inline-block;
+}
+
+.tooltip-box {
+	display: none;
+	position: absolute;
+	line-height: 20px;
+	z-index: 500;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 100px;
+  width: 90px;
+  right: calc(50% - 45px);
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  background-color: var(--tx-blue);
+}
+
+.tooltip-box::after {
+	content: "";
+	display: block;
+	border-top: 7px solid var(--tx-blue);
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	bottom: -7px;
+	left: calc(50% - 7px);
+}

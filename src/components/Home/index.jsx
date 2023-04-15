@@ -1,5 +1,5 @@
 import miniDino from './../../assets/dino-haker-3.png';
-import "./style.component.css";
+import './style.component.css';
 
 export const Home = () => {
   return (

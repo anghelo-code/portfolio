@@ -1,6 +1,6 @@
 import elmoHorario from '../../assets/elmoHorario.jpg';
 import { CardBack } from './CardBack';
-import "./style.component.css";
+import './style.component.css';
 
 export const Card = () => {
 

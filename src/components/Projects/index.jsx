@@ -16,8 +16,7 @@ export const Projects = () => {
         <Card/>
       </div>
 
-      {/* <button className="btn btn-outline-primary btn-lg mb-lg-5 my-4">ver mas</button>   */}
-      <Button >Ver Mas</Button>    
+      {/* <Button >Ver Mas</Button>     */}
     </section>
   )
 }

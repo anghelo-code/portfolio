@@ -1,4 +1,4 @@
-import { CarouselButton } from './CarouselButton'
+import { CarouselButton } from './CarouselButton';
 
 export const CarouselIndicators = ({ n }) => {
   const firstComponentProps = { className: 'active', index: 0 };

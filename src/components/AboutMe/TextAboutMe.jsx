@@ -1,7 +1,13 @@
-import { Button } from "../Shared/Button";
-import { H1 } from "../Shared/H1";
+import { Button } from '../Shared/Button';
+import { H1 } from '../Shared/H1';
+import cv from '/public/anghelo_alagon_CV_front_end_en.pdf';
 
 export const TextAboutMe = () => {
+
+  const downloadCv = () => {
+    window.open(cv, '_blank');
+  }
+
   return (
     <>
       <H1 text="Sobre Mí" />
@@ -11,7 +17,7 @@ export const TextAboutMe = () => {
         Mi enfoque principal es crear soluciones de alta calidad que sean visualmente atractivas y funcionales. Siempre busco mejorar mis habilidades y aprender nuevas tecnologías para poder ofrecer soluciones de vanguardia.
       </p>
 
-      <Button>Descargar CV</Button>
+      <Button onClick={ downloadCv } > Descargar Cv</Button>
     </>
 
   )

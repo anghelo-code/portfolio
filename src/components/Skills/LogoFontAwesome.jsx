@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Logo } from "./Logo";
+import { Logo } from './Logo';
 
-export const LogoFontAwesome = ({ classLogo }) => {
+export const LogoFontAwesome = ({ classLogo, name }) => {
   return (
     <>
-      <Logo>
+      <Logo name={ name }>
         <FontAwesomeIcon icon={ classLogo } className="logo" />
       </Logo>
     

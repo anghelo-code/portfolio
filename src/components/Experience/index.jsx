@@ -1,6 +1,6 @@
-import { Carousel } from "./Carousel";
-import { H1 } from "../Shared/H1"
-import "./style.component.css";
+import { Carousel } from './Carousel';
+import { H1 } from '../Shared/H1';
+import './style.component.css';
 
 
 export const Experience = () => {

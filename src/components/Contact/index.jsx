@@ -1,6 +1,6 @@
 import { H1 } from '../Shared/H1';
 import { Form } from './Form';
-import "./style.component.css";
+import './style.component.css';
 
 export const Contact = () => {
   return (
