@@ -14,14 +14,16 @@ export const App = () => {
       <main className="container main">
         <Home/> 
 
+        <Experience/> 
+        <br /><br />
+
         <Projects/>
 
         <AboutMe/>
 
         <Skills/>
+        <br /><br />
 
-        <Experience/> 
-        
         <Contact/>
 
         <br /><br /><br />

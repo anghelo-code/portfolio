@@ -1,8 +1,10 @@
-import elmoHorario from '../../assets/elmoHorario.jpg';
 import { CardBack } from './CardBack';
-import './style.component.css';
+import { getImageUrl } from '../../helpers/getImageUrl'
 
-export const Card = () => {
+export const Card = ({ data }) => {
+  const { src, ...info } = data
+  const textSrc = 'projects/' + src
+  const srcComplete = getImageUrl(textSrc)
 
   const styleCard = {
     width: '18 rem',
@@ -10,9 +12,9 @@ export const Card = () => {
   return (
     <article className="col-lg-4 col-md-6">
       <div className="card h-100 position-relative" style={styleCard}>
-        <img src={elmoHorario} className="card-img-top" alt="Elmo Horario" />
+        <img src={ srcComplete } className="card-img-top" alt={ data.title } />
 
-        <CardBack />
+        <CardBack info={ info }/>
       </div>
     </article>
   )

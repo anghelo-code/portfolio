@@ -1,0 +1,24 @@
+[
+  {
+    "title": "WikiHeroes",
+    "text": "Informacion de Heroes de DC y Marvel",
+    "link": "https://wikiheroe.netlify.app/",
+    "github": "https://github.com/anghelo-code/heroes-spa",
+    "src": "wikiheroes"
+  },
+  {
+    "title": "ElmoHorario",
+    "text": "Generador de horario para la Universidad Nacional San Antonio Abad del Cusco",
+    "link": "https://elmorario.netlify.app/",
+    "github": "https://github.com/anghelo-code/schedule",
+    "src": "elmohorario"
+  },
+  {
+    "title": "Analizador de Credito",
+    "text": "Es un analizador de creditos que contiene el metodo frances, aleman, ingles y flat",
+    "link": "https://credit-analyst.netlify.app/",
+    "github": "https://github.com/anghelo-code/credit-analyst",
+    "src": "creditAnalyst"
+  }
+
+]
